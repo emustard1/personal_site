@@ -10,9 +10,8 @@
     <nav>
       <a href="cv-download-link">Resume</a>
       <ul>
-        <li><a href="PROJECTS-PAGE">Projects</a></li>
-        <li><a href="BLOG-PAGE">Blog?</a></li>
-        <li><a href="ABOUTME-PAGE">About me</a></li>
+        <li><a href="{{url_for('projects')}}">Projects</a></li>
+        <li><a href="{{url_for('blog')}}">Blog</a></li>
         <li><button>MAYBE DARK/LIGHTMODE</button></li>
       </ul>
     </nav>
@@ -25,10 +24,14 @@
   <footer class="site-footer"></footer>
   <div class="footer-border">
     <div class="footer-center-row">
-      <div class="footer-left-copyright"></div>
-      <div class="footer-right-iconlinks"></div>
+      <div class="footer-left-copyright">
+        <p>Edward Mustard. All Rights Reserved</p>
+      </div>
+      <div class="footer-right-iconlinks">
+        <!-- Social links-->
+        <a href="TO LINK">Linked in?</a>
+        <a href="TO LINK">Medium?</a>
+      </div>
     </div>
-  </div>
-
   </div>
 </html>
