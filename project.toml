@@ -1,0 +1,13 @@
+My personal site
+name = 
+dependencies = [
+    "blinker",
+    "click",        
+    "Flask",        
+    "Flask-WTF", 
+    "itsdangerous", 
+    "Jinja2",       
+    "MarkupSafe",             
+    "Werkzeug",     
+    "WTForms"      
+]
